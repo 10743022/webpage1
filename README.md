@@ -18,6 +18,10 @@ Syntax highlighted code block
 - Bulleted
 - List
 
+cd xiang-note.github.io
+
+# ~/xiang-note.github.io
+echo "todat is 2020.04.29.Now is 15:50" > index.html
 1. Numbered
 2. List
 
