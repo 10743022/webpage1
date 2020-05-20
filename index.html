@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+   this is backound-color style
+   <style>
+   #b1 {
+       background-color: #00B200;
+   }
+
+    #b2 {
+       background-color: #FFABAB;
+   }
+
+    #B3 {
+       background-color: #8959FF;
+   }
+  .important {color:red; background-color:#FFFF59}
+   </style>
+  </head>
+
 <body>
-	<table style="border:3px #FFD382 dashed;" cellpadding="10" border='1'>
-		
-	<tr><td><img src="123.jpg" width="200" height="200"></td>
-	    <td><iframe width="200" height="200" src="https://www.youtube.com/embed/7eX9yJ5NQh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></td>
-	    <td><img src="123.jpg" width="200" height="200"</td></tr>
-		
-	<tr><td><img src="123.jpg" width="200" height="200"</td>
-	    <td><img src="123.jpg" width="200" height="200"</td>
-	    <td><img src="123.jpg" width="200" height="200"</td></tr>
-		
-	<tr><td><img src="123.jpg" width="200" height="200"</td>
-	    <td><img src="123.jpg" width="200" height="200"</td>
-	    <td><img src="123.jpg" width="200" height="200"</td></tr>
-</table>
-	
+  <div id="nav"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $("#nav").load( "nav.html");
+  </script>
+
+<p>this is index page</p>
+<p class="important">This is important1</p>
+<!-- this is buttons -->
+<a href="test.html">
+ <input id="b1" type="button" value="我是按鈕1" style="width:120px;height:40px;font-size:
+  20px;">
+</a>
+<br>
+<br>
+<a href="test.html">
+ <input id="b2" type="button" value="我是按鈕2" style="width:120px;height:40px;font-size:
+  20px;">
+</a>
+<br>
+<br>
+<a href="test.html">
+ <input id="b3" type="button" value="我是按鈕3" style="width:120px;height:40px;font-size:
+  20px;">
+</a>
+<br>
+<p class="important">this is important2</p>
+<p><u class="important">this is underline paragraph. </u></p>
 </body>
+
 </html>
